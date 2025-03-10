@@ -1,0 +1,2 @@
+Faça um programa que converta graus Fahrenheit  para Celsius. Usar a função Celsius recebendo
+o grau Fahrenheit como parâmetro.  Fórmula para calculo: C=(F-32)/1.8.

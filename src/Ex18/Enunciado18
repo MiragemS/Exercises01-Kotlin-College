@@ -1,0 +1,2 @@
+Faça um programa para calcular salário do funcionário. A função deve retornar o salário para a
+função principal. Salario = (hora * valorhora)*dias;

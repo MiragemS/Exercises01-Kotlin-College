@@ -1,0 +1,2 @@
+Faça um programa que apresente função para calcular o IMC. A função deve retornar o IMC calculado
+para a função principal. IMC = peso/(altura*altura);
