@@ -12,6 +12,14 @@ fun main() {
 }
 
 fun ordena(vetor: IntArray) {
-    vetor.sort()
+    for (i in vetor.indices) {
+        for (j in 0 until vetor.size - i - 1) {
+            if (vetor[j] > vetor[j + 1]) {
+                val temp = vetor[j]
+                vetor[j] = vetor[j + 1]
+                vetor[j + 1] = temp
+            }
+        }
+    }
     println("Valores ordenados: ${vetor.joinToString(", ")}")
 }
